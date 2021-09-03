@@ -2,7 +2,6 @@
 #include <math.h>
 #include <fetch.h>
 #include <iostream>
-#workspace 'curso devops'
 
 using namespace std;
 
