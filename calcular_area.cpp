@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <math.h>
 
 
 int main()
@@ -8,42 +8,42 @@ int main()
 
 
 
-    float area, l1, radio, h, base;
+    float areaCuadro,areaTriangulo,areaCirculo, lado, radio, h, base;
 
 
 
-    l1 = 5;
+    lado = 30;
 
-    radio = 8;
+    radio = 10;
 
-    h = 9;
+    h = 15;
 
-    base = 5;
+    base = 12;
 
-    /*cuadrado*/
+    /*1. Cuadro*/
 
     
 
 
 
-    area = l1 * l1;
+    areaCuadro = lado * lado;
 
-    printf("El area es del cuadrado es: %f", area);
-
-
-
-    /*Triangulo*/
-
-    area = (base * h) / 2;
-
-    printf("\nEl area del triangulo es de: %f", area);
+    printf("\nLa raíz cuadrada del area  del cuadrado es: %f", sqrt(areaCuadro));
 
 
 
-    /*Circulo*/
+    /*2. Triangulo*/
 
-    area = (radio * radio) * 3.14;
+    areaTriangulo = (base * h) / 2;
 
-    printf("\nEl area del circulo es de: %f", area);
+    printf("\nLa raíz cuadrada del area del triangulo es: %f", sqrt(areaTriangulo));
+
+
+
+    /*3. Circulo*/
+
+    areaCirculo = (radio * radio) * 3.145642;
+
+    printf("\nLa raíz cuadrada del area del circulo es: %f", sqrt(areaCirculo));
 
 }

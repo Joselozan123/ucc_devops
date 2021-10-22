@@ -1,0 +1,23 @@
+Started by user devops
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/task-test-RETO_CC
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[task-test-RETO_CC] $ /bin/sh -xe /tmp/jenkins4003051338290162533.sh
++ cp /mnt/c/git_devops/calcular_area.cpp ./
++ g++ calcular_area.cpp -o calcular_area
++ make calcular_area
+make: 'calcular_area' is up to date.
++ ./calcular_area
+El area es del cuadrado es: 900.000000
+El area del triangulo es de: 90.000000
+El area del circulo es de: 314.564209+ sha256sum calcular_area
++ ls -l
+total 32
+-rwxr-xr-x 1 jenkins jenkins 16712 Oct  7 20:52 calcular_area
+-rwxr-xr-x 1 jenkins jenkins   472 Oct  7 20:52 calcular_area.cpp
+-rw-r--r-- 1 jenkins jenkins    80 Oct  7 20:52 calcular_area.huella
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: SUCCESS
