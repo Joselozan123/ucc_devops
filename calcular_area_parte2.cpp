@@ -5,3 +5,4 @@
     printf("\nLa raíz cuadrada del area del circulo es: %f", sqrt(areaCirculo));
 
 }
+calcular_area_parte2
