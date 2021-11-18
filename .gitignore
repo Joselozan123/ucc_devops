@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 #Exclusion de folder binarios
 
 
@@ -44,3 +43,5 @@
 *.out
 *.app
 
+# Exclusion Folders
+/bin
